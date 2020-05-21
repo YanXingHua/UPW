@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.upw.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_stockstore"
+        android:name="com.example.upw.ui.stockstore.StockStoreFragment"
+        tools:layout="@layout/fragment_stockstore" />
+
+    <fragment
+        android:id="@+id/nav_company"
+        android:name="com.example.upw.ui.company.CompanyFragment"
+        tools:layout="@layout/fragment_company" />
+
+
+    <fragment
+        android:id="@+id/nav_sustainability"
+        android:name="com.example.upw.ui.sustainability.SustainabilityFragment"
+        tools:layout="@layout/fragment_sustainability" >
+        <action
+            android:id="@+id/action_nav_sustainability_to_sustainableFragment"
+            app:destination="@id/sustainableFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_nav_sustainability_to_naturalFragment"
+            app:destination="@+id/naturalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_nav_sustainability_to_materialFragment"
+            app:destination="@id/materialFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_nav_sustainability_to_traceFragment"
+            app:destination="@id/traceFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_nav_sustainability_to_dyesFragment2"
+            app:destination="@id/dyesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_exhibitions_events"
+        android:name="com.example.upw.ui.exhibitions_events.Exhibitions_EventsFragment"
+        tools:layout="@layout/fragment_exhibitions_events" >
+        <action
+            android:id="@+id/action_nav_exhibitions_events_to_blog27Fragment"
+            app:destination="@id/blog27Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_u_lab"
+        android:name="com.example.upw.ui.u_lab.U_LabFragment"
+        tools:layout="@layout/fragment_u_lab" />
+
+    <fragment
+        android:id="@+id/nav_language"
+        android:name="com.example.upw.ui.language.LanguageFragment"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/nav_register_login"
+        android:name="com.example.upw.ui.registerLogin.RegisterLoginFragment"
+        android:label="fragment_register_login"
+        tools:layout="@layout/fragment_register_login" />
+    <fragment
+        android:id="@+id/sustainableFragment"
+        android:name="com.example.upw.ui.sustainability.SustainableFragment"
+        tools:layout="@layout/fragment_sustainable" />
+    <fragment
+        android:id="@+id/naturalFragment"
+        android:name="com.example.upw.ui.sustainability.NaturalFragment"
+        tools:layout="@layout/fragment_natural" />
+    <fragment
+        android:id="@+id/materialFragment"
+        android:name="com.example.upw.ui.sustainability.MaterialFragment"
+        tools:layout="@layout/fragment_material" />
+    <fragment
+        android:id="@+id/traceFragment"
+        android:name="com.example.upw.ui.sustainability.TraceFragment"
+        tools:layout="@layout/fragment_trace" />
+    <fragment
+        android:id="@+id/dyesFragment"
+        android:name="com.example.upw.ui.sustainability.DyesFragment"
+        tools:layout="@layout/fragment_dyes" />
+    <fragment
+        android:id="@+id/blog27Fragment"
+        android:name="com.example.upw.ui.exhibitions_events.BlogFragment"
+        tools:layout="@layout/fragment_blog" />
+</navigation>

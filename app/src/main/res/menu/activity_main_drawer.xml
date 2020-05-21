@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_stockstore"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="@string/menu_stockstore" />
+        <item
+            android:id="@+id/nav_company"
+            android:icon="@drawable/ic_menu_company"
+            android:title="@string/menu_company" />
+
+        <item
+            android:id="@+id/nav_sustainability"
+            android:icon="@drawable/ic_menu_sustainability_24dp"
+            android:title="@string/menu_sustainability" />
+        <item
+            android:id="@+id/nav_u_lab"
+            android:icon="@drawable/ic_menu_u_lab_24dp"
+            android:title="@string/menu_u_lab" />
+        <item
+            android:id="@+id/nav_exhibitions_events"
+            android:icon="@drawable/ic_menu_ex_event_24dp"
+            android:title="@string/menu_exhibitions_events" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_menu_language_24dp"
+            android:title="@string/menu_language" />
+    </group>
+
+
+</menu>

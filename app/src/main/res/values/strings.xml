@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">UPW</string>
+    <!--    <string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--    <string name="navigation_drawer_close">Close navigation drawer</string>-->
+    <!--    <string name="nav_header_title">Android Studio</string>-->
+    <!--    <string name="nav_header_subtitle">android.studio@android.com</string>-->
+    <!--    <string name="nav_header_desc">Navigation header</string>-->
+
+    <string name="actin_over_view">OVER VIEW</string>
+    <string name="active_about_me">ABOUT ME</string>
+    <string name="action_shop_cart">SHOPPING CART</string>
+    <string name="action_my_order">MY ORDERS</string>
+    <string name="action_exbt_events">EXHIBITIONS &amp; EVENTS</string>
+    <string name="action_fav_list">FAVOURITE LIST</string>
+    <string name="action_login_register">Sign in</string>
+
+
+    <string name="menu_home">HOME</string>
+    <string name="menu_stockstore">STOCKSTORE®</string>
+    <string name="menu_company">COMPANY</string>
+    <string name="menu_sustainability">SUSTAINABILITY</string>
+    <string name="menu_u_lab">U_LAB</string>
+    <string name="menu_exhibitions_events">EXHIBITIONS &amp; EVENTS</string>
+    <string name="menu_language">LANGUAGE</string>
+
+    <string name="login_title">LOGIN</string>
+    <string name="register_title">REGISTER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--登录-->
+    <string name="txt_loginpagetitle1">UPW MEMBER</string>
+    <string name="txt_loginpagetitle2">If you are already a UPW member,please enter your login information.</string>
+    <string name="email_loginpage">E-mail *</string>
+    <string name="psd_loginpage">Password *</string>
+    <string name="btn_loginpage">Login</string>
+    <string name="chk_loginpage">Remember me</string>
+    <string name="edt_losepsd">Forgotten password</string>
+    <string name="trip1_loginpage">Please Enter Email</string>
+    <string name="trip2_loginpage">Please Enter Password</string>
+
+    <!--注册-->
+    <!-- 页面提示-->
+    <string name="txt_regpagetitle1">CREATE AN ACCOUNT</string>
+    <string name="txt_regpagetitle2">MY ACCOUNT</string>
+    <string name="txt_regpagetitle3">
+        Be the first to know about new collections and exclusive events through your personal account.</string>
+    <string name="txt_regpagetitle4">Please indicate your business activity</string>
+
+    <!--标题-->
+    <string name="company_regpagetitle">Company *</string>
+    <string name="title_regpagetitle">Title</string>
+    <string name="firstname_regpagetitle">First Name *</string>
+    <string name="lastname_regpagetitle">Last Name *</string>
+    <string name="email_regpagetitle">Email address *</string>
+    <string name="tel_regpagetitle">Telephone *</string>
+    <string name="sales_regpagetitle">Sales region *</string>
+    <!--输入提示-->
+    <string name="trip1_regpage">Please Enter Company</string>
+    <string name="trip2_regpage">Please Select Title</string>
+    <string name="trip3_regpage">Please Enter First Name</string>
+    <string name="trip4_regpage">Please Enter Last Name</string>
+    <string name="trip5_regpage">Please Enter Email Address</string>
+    <string name="trip6_regpage">Please Enter Telephone</string>
+    <string name="trip7_regpage">Please Select Sales Region</string>
+
+
+    <string name="chk_regpagename1">Knitwear Manufacturer</string>
+    <string name="chk_regpagename2">Garment Manufacturer</string>
+    <string name="chk_regpagename3">Spinner</string>
+    <string name="chk_regpagename4">Sourcing Office</string>
+    <string name="chk_regpagename5">Retailer</string>
+    <string name="chk_regpagename6">Trading Company(Garment)</string>
+    <string name="chk_regpagename7">Design Office</string>
+    <string name="chk_regpagename8">Wholesaler</string>
+    <string name="chk_regpagename9">Agent</string>
+    <string name="chk_regpagename10">Others</string>
+
+    <string name="btn_regpage">CREATE AN ACCOUNT</string>
+    <string name="company_cell_pic">companyPic</string>
+    <string name="Text_Sustainability">LEARN MORE ></string>
+    <string name="image_sustainability">SustainabilityImage</string>
+    <string name="text_sus_con">/</string>
+    <string name="language">中文</string>
+</resources>
